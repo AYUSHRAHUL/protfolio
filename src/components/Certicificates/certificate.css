@@ -1,0 +1,53 @@
+/* ===== Certificate Section ===== */
+.certificate-section {
+  padding: 60px 10% 3rem 10%;
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+.certificate-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* ===== Certificate Grid ===== */
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Wider cards */
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ===== Certificate Card (Wide & Short) ===== */
+.certificate-card {
+  background-color: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* ✅ Shorter Height, Full-Width Image */
+.certificate-card img {
+  width: 100%;
+  height: 200px;               /* Shorter height */
+  object-fit: contain;         /* Show full image */
+  display: block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* ===== Certificate Title ===== */
+.certificate-card p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+  padding: 20px;
+  margin: 0;
+  background-color: #fff;
+}
