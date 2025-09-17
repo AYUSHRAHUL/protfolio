@@ -1,42 +1,42 @@
 import React from "react";
 import "./ProjectCSS.css";
 import Projectitem from "./Projectitem";
-import SGT from "../../images/projectImages/SGT.png";
-import eCommerceStore from "../../images/projectImages/E-commerce-store.png";
-import TripConnect from "../../images/projectImages/TripConnect.png";
-import FlowBuilder from "../../images/projectImages/Flow-Builder.png";
+
+import cutm_result_portal from "../../images/projectImages/cutm_result_portal.png";
+import job_khojo from "../../images/projectImages/job_khojo.png";
+import exam_portal from "../../images/projectImages/exam_portal.png";
 
 const Project = () => {
   const projectData = [
     {
-      sourceCodeLink: "https://github.com/Saini-Yogesh/WhatsApp-AI-Chatbot",
-      deployedLink: "https://whatsapp-ai-chatbot.vercel.app/",
-      name: "WhatsApp AI Chatbot Flow Builder",
+      sourceCodeLink: "https://github.com/AYUSHRAHUL/cutm-result-portal",
+      deployedLink: "https://result-rust.vercel.app/",
+      name: "CUTM Result Portal",
       description:
-        "The WhatsApp AI Chatbot Flow Builder lets businesses automate chat flows using a drag-and-drop UI. It supports editable questions, dynamic responses, and Twilio integration. Clean UI, easy setup, and smooth automation.",
-      languages: "JavaScript | React.js | React Flow | Node.js | Express.js | MongoDB | Mongoose | Twilio API | OpenAI API | APIs | Ngrok | WhatsApp Business API | MERN Stack",
+        "The CUTM Result & Backlog Portal provides students with a simple and reliable way to check their academic results and track backlog status. With a clean interface and smooth navigation, it ensures hassle-free access to important academic information.",
+      languages: "JavaScript | Flask | HTML | CSS | MongoDB | Mongoose  | REST API | Bootstrap | Tailwind CSS | Git & GitHub | Postman | JWT Authentication | Docker | Vercel",
       image: cutm_result_portal,
-      projectType: "AI-Integrated Full Stack App",
+      projectType: "Result and backlog Management System",
     },
     {
-      sourceCodeLink: "https://github.com/Saini-Yogesh/Trip-connect",
-      deployedLink: "https://saini-yogesh.github.io/Trip-connect/",
-      name: "Trip-connect",
+      sourceCodeLink: "https://github.com/AYUSHRAHUL/job-khojo-nextjs",
+      deployedLink: "https://job-khojo-nextjs.vercel.app/",
+      name: "Job-Khojo",
       description:
-        "Trip-Connect is a platform that connects solo travelers to share expenses and enhance social interactions. Built with React.js, Node.js, Express.js, and MongoDB, it offers a responsive UI and real-time travel planning features for a seamless experience.",
-      languages: "React JS | Node.js | Express.js | MongoDB | Mongoose | React Router | JWT | Bcrypt | MERN Stack",
+      "Job-khojo is an innovative platform designed to bridge the gap between job seekers and employers, making the recruitment process more efficient, transparent, and engaging. It provides a single, user-friendly interface where candidates can showcase their skills and achievements, while employers can discover, evaluate, and connect with the right talent.",
+      languages: "Nextjs |  MongoDB | Mongoose | React Router | JWT | Bcrypt | MERN Stack",
       image: job_khojo,
-      projectType: "Real-Time Full Stack Travel App",
+      projectType: "Real-Time Hiring Platform",
     },
     {
-      sourceCodeLink: "https://github.com/Saini-Yogesh/segment-tree-visualization",
-      deployedLink: "https://segment-tree-visualization.vercel.app/",
-      name: "Segment Tree Visualizer",
+      sourceCodeLink: "https://github.com/AYUSHRAHUL/exam-portal",
+      deployedLink: "https://exam-portal-nine-liart.vercel.app/",
+      name: "Exam Portal",
       description:
-        "The Segment Tree Visualizer is a web-based application built using Next.js that provides an interactive way to understand and visualize different types of segment trees. This project showcases efficient data structure operations and dynamic visualizations.",
-      languages: "Next.js | D3.js | JavaScript | HTML | CSS | Segment Tree Algorithm",
+        "The Exam Portal is a web-based platform that provides students with an interactive and efficient way to access all exam-related information. It ensures smooth navigation and clear visibility of schedules, results, and academic progress.",
+      languages: "Next.js | JavaScript | TypeScript | HTML | CSS | Tailwind CSS | React.js | Node.js | Express.js | MongoDB | REST API | Git & GitHub | Firebase | Vercel | Postman | MERN Stack",
       image: exam_portal,
-      projectType: "Advanced DSA Visualizer",
+      projectType: "Advanced Exam Portal",
     },
     // {
     //   sourceCodeLink: "https://github.com/Saini-Yogesh/E-Commerce-Store",
